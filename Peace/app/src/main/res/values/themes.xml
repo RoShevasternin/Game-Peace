@@ -1,0 +1,8 @@
+<resources>
+    <style name="Base.Theme.Peace" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+
+    </style>
+
+    <style name="Theme.Peace" parent="Base.Theme.Peace"/>
+</resources>
