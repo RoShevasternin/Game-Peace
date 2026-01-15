@@ -111,7 +111,7 @@ class LoaderScreen : AdvancedMainScreen() {
                     if (progress % 50 == 0) log("progress = $progress%")
                     if (progress == 100) isFinishProgress = true
 
-                    delay((8..10).shuffled().first().toLong())
+                    delay((10..14).shuffled().first().toLong())
                 }
             }
         }

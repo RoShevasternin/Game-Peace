@@ -18,9 +18,9 @@ class SoundManager(var assetManager: AssetManager) {
 
     enum class EnumSound(val data: SoundData) {
         click(SoundData("sound/click.wav")),
-        MIR(SoundData("sound/MIR.mp3")),
-        TAK(SoundData("sound/TAK.mp3")),
-        YRA(SoundData("sound/YRA.mp3")),
+        MIR(SoundData("sound/MIR.m4a")),
+        TAK(SoundData("sound/TAK.m4a")),
+        YRA(SoundData("sound/YRA.m4a")),
     }
 
     data class SoundData(
